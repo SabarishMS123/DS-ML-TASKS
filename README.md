@@ -1,6 +1,18 @@
+I apologize for the confusion and frustration! I see exactly what went wrong. My previous template used placeholder URLs (`yourusername`) and a completely made-up folder structure (`ml-projects-portfolio/`). 
+
+Based on the file you just provided, your actual repository is named **`DS-ML-TASKS`**, it contains folders like `MINI PROJECT 11`, `ML MINI PROJECT 13 WEBSCRAPPING`, and Jupyter Notebooks (`.ipynb` files). 
+
+Here is the **completely corrected, fully customized `README.md`** tailored exactly to your actual GitHub repository, including your portfolio link, location, and the correct project structure.
+
+### ⚠️ Important: How to fix the images
+Since GitHub cannot read images directly from your computer, you **must** create a folder named exactly `images` in your repository, upload your 14 screenshots there, and name them exactly as listed in the code below (e.g., `agg_dendrogram.png`, `text_classifier.png`). 
+
+***
+
+### Copy everything below this line:
 
 ```markdown
-# 🤖 Machine Learning & Data Science Portfolio
+# 🤖 Machine Learning & Data Science Portfolio (DS-ML-TASKS)
 
 ### Python • Scikit-Learn • Pandas • Matplotlib • Tkinter
 
@@ -10,8 +22,11 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/Seaborn-444876?style=for-the-badge&logo=seaborn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
 
-A comprehensive collection of **Machine Learning, Data Visualization, and Natural Language Processing** projects. This repository showcases end-to-end data science workflows — from data preprocessing and exploratory data analysis (EDA) to model training, evaluation, and deployment via interactive GUI applications. 
+Welcome to my **Data Science and Machine Learning** repository! This repository showcases my daily contributions, mini-projects, and comprehensive assignments covering end-to-end data science workflows — from data preprocessing and exploratory data analysis (EDA) to model training, evaluation, and interactive GUI applications.
+
+🌐 **Check out my Portfolio:** [sabarishdev.netlify.app](https://sabarishdev.netlify.app/)
 
 ---
 
@@ -24,9 +39,8 @@ A comprehensive collection of **Machine Learning, Data Visualization, and Natura
   - [Classification & NLP](#2-classification--nlp)
   - [Regression Models](#3-regression-models)
 - [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
+- [Repository Structure](#-repository-structure)
 - [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
 - [License](#-license)
 - [Author](#-author)
 
@@ -34,7 +48,7 @@ A comprehensive collection of **Machine Learning, Data Visualization, and Natura
 
 ## 🏗️ ML Pipeline Architecture
 
-The projects follow a standard Data Science lifecycle. Interactive GUIs (built with Tkinter/PyQt) act as the client interface for users to input data and receive real-time predictions.
+The projects in this repository follow a standard Data Science lifecycle. Interactive GUIs (built with Tkinter/PyQt) act as the client interface for users to input data and receive real-time predictions.
 
 ```mermaid
 graph TD
@@ -70,7 +84,7 @@ graph TD
     classDef deploy fill:#ffcc80,stroke:#333,stroke-width:2px;
     
     class Data data;
-    class Preprocessing,Feature Engineering,ModelSelection process;
+    class Preprocessing,ModelSelection process;
     class Clustering,Classification,Regression,NLP model;
     class Evaluation,GUI deploy;
 ```
@@ -85,7 +99,7 @@ graph TD
 | **Data Manipulation** | Pandas, NumPy |
 | **Machine Learning** | Scikit-Learn (Sklearn) |
 | **Data Visualization** | Matplotlib, Seaborn |
-| **Natural Language Processing** | NLTK, WordCloud |
+| **Natural Language Processing** | NLTK, WordCloud, Regex |
 | **GUI Frameworks** | Tkinter, Jupyter Notebook (Colab UI) |
 | **Environment** | Jupyter Notebook, VS Code |
 
@@ -93,7 +107,7 @@ graph TD
 
 ## ✨ Project Walkthrough
 
-The repository is divided into distinct Machine Learning paradigms.
+Here is a showcase of the core Machine Learning paradigms covered in this repository.
 
 ### 1. Unsupervised Learning & Clustering
 
@@ -166,58 +180,65 @@ A foundational model predicting Total Sales based solely on Price. The visualiza
 ### Prerequisites
 
 - **Python 3.8+**
+- **Jupyter Notebook** (to run the `.ipynb` files)
 - **Pip** package manager
-- **Jupyter Notebook** (optional, for data exploration)
 
-### Installation
+### Installation & Usage
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/ml-projects-portfolio.git
-cd ml-projects-portfolio
+git clone https://github.com/SabarishMS123/DS-ML-TASKS.git
+cd DS-ML-TASKS
 ```
 
 **2. Install Dependencies**
 
-It is recommended to create a virtual environment:
+Install the required libraries used across the notebooks:
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install pandas numpy scikit-learn matplotlib seaborn nltk wordcloud
 ```
 
-Install the required libraries:
+**3. Run the Notebooks**
+
+Launch Jupyter Notebook or upload the `.ipynb` files to Google Colab to explore the tasks and models:
 
 ```bash
-pip install -r requirements.txt
-```
-*(Note: If `requirements.txt` is missing, install manually using: `pip install pandas numpy scikit-learn matplotlib seaborn nltk wordcloud`)*
-
-**3. Run the Applications**
-
-Navigate to the specific project folder and run the Python GUI scripts:
-
-```bash
-python heart_disease_predictor.py
+jupyter notebook
 ```
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository Structure
+
+Here is an overview of the tasks and projects present in this repository:
 
 ```
-ml-projects-portfolio/
-├── datasets/                    # Raw and processed CSV datasets
-├── notebooks/                   # Jupyter notebooks for EDA and Model Training
-├── guis/                        # Python scripts for Tkinter GUI applications
-│   ├── heart_disease_predictor.py
-│   ├── text_classifier.py
-│   ├── sales_predictor.py
-│   └── sentiment_analysis.py
-├── models/                      # Saved model files (.pkl)
-├── images/                      # Screenshots for README
-├── requirements.txt
+DS-ML-TASKS/
+├── MINI PROJECT WEEK 1/         # Initial data exploration tasks
+├── MINI PROJECT WEEK2/          
+├── MINI PROJECT 3/              # Core ML algorithms
+├── MINI PROJECT 4/              # Gaussian Naive Bayes
+├── MINI PROJECT 5/              
+├── MINI PROJECT 6/              # KNN Algorithm implementation
+├── mini project 7/              # Decision Tree Regressor & Classifier
+├── ML WEEKLY PROJECT 8/         
+├── MINI project 9/              
+├── Mini project 10/             
+├── MINI PROJECT 11/             
+├── ML PROJECT 12/               # Random Forest Regressor & Classifier
+├── ML MINI PROJECT 13 WEBSCRAPPING/  # Web Scraping with DS/ML
+├── ml project 14/               
+├── Data Preprocessing Tasks/
+│   ├── DISTRIBUITION_TASKS.ipynb
+│   ├── MATPLOTLIB TASKS.ipynb
+│   ├── NUMPY TASKS.ipynb
+│   ├── PANDAS TASK.ipynb
+│   ├── REGEX TASKS.ipynb
+│   ├── SKEWNESS AND KURTOSIS TASKS.ipynb
+│   └── kurtosis EXPLORATION.ipynb
+├── AGRI DATASET.csv             # Sample dataset used in projects
 └── README.md
 ```
 
@@ -228,20 +249,7 @@ ml-projects-portfolio/
 - [ ] Add Deep Learning models (TensorFlow/PyTorch) for image classification.
 - [ ] Containerize the GUI applications using Streamlit for web deployment.
 - [ ] Implement cross-validation and hyperparameter tuning (GridSearchCV) for all models.
-- [ ] Add unit tests for data preprocessing functions.
 - [ ] Deploy the models as REST APIs using FastAPI.
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/amazing-feature`.
-3. Commit your changes: `git commit -m "Add some amazing feature"`.
-4. Push to the branch: `git push origin feature/amazing-feature`.
-5. Open a Pull Request.
 
 ---
 
@@ -257,7 +265,10 @@ This project and its source code are the intellectual property of the author. Un
 
 **Sabarish M S**
 
+📍 Salem, Tamil Nadu, India
+
 - GitHub: [@SabarishMS123](https://github.com/SabarishMS123)
+- Portfolio: [sabarishdev.netlify.app](https://sabarishdev.netlify.app/)
 - LinkedIn: [sabarish-m-s](https://linkedin.com/in/sabarish-m-s/)
 
 ---
