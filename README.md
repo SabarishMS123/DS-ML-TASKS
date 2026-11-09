@@ -1,5 +1,3 @@
-### Copy everything below this line:
-
 ```markdown
 # 🤖 Machine Learning & Data Science Portfolio (DS-ML-TASKS)
 
