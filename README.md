@@ -101,23 +101,17 @@ Explore this repository by topic, open a notebook to see the analysis, or browse
 
 Selected images from the [`images/`](./images/) folder. Click an image to open the full-size file.
 
-<table>
-  <tr>
-    <td align="center"><a href="./images/K-means%20clustering.png"><img src="./images/K-means%20clustering.png" alt="K-Means clustering visualization" width="240"><br>K-Means</a></td>
-    <td align="center"><a href="./images/K-mediods%20clustering.png"><img src="./images/K-mediods%20clustering.png" alt="K-Medoids clustering visualization" width="240"><br>K-Medoids</a></td>
-    <td align="center"><a href="./images/DBSCAN.jpeg"><img src="./images/DBSCAN.jpeg" alt="DBSCAN visualization" width="240"><br>DBSCAN</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="./images/Gaussian%20Naive%20Bayes.jpeg"><img src="./images/Gaussian%20Naive%20Bayes.jpeg" alt="Gaussian Naive Bayes visualization" width="240"><br>Gaussian Naive Bayes</a></td>
-    <td align="center"><a href="./images/Multinomial%20Naive%20Bayes.jpeg"><img src="./images/Multinomial%20Naive%20Bayes.jpeg" alt="Multinomial Naive Bayes visualization" width="240"><br>Multinomial Naive Bayes</a></td>
-    <td align="center"><a href="./images/PCA.jpeg"><img src="./images/PCA.jpeg" alt="PCA visualization" width="240"><br>PCA</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="./images/Simple%20Linear%20Regression.jpeg"><img src="./images/Simple%20Linear%20Regression.jpeg" alt="Simple linear regression visualization" width="240"><br>Simple linear regression</a></td>
-    <td align="center"><a href="./images/Multiple%20Linear%20Regression.jpeg"><img src="./images/Multiple%20Linear%20Regression.jpeg" alt="Multiple linear regression visualization" width="240"><br>Multiple linear regression</a></td>
-    <td align="center"><a href="./images/Word%20Cloud.jpeg"><img src="./images/Word%20Cloud.jpeg" alt="Word cloud visualization" width="240"><br>Word cloud</a></td>
-  </tr>
-</table>
+| K-Means | K-Medoids | DBSCAN |
+|---|---|---|
+| [![K-Means clustering](./images/K-means%20clustering.png)](./images/K-means%20clustering.png) | [![K-Medoids clustering](./images/K-mediods%20clustering.png)](./images/K-mediods%20clustering.png) | [![DBSCAN clustering](./images/DBSCAN.jpeg)](./images/DBSCAN.jpeg) |
+
+| Gaussian Naive Bayes | Multinomial Naive Bayes | PCA |
+|---|---|---|
+| [![Gaussian Naive Bayes](./images/Gaussian%20Naive%20Bayes.jpeg)](./images/Gaussian%20Naive%20Bayes.jpeg) | [![Multinomial Naive Bayes](./images/Multinomial%20Naive%20Bayes.jpeg)](./images/Multinomial%20Naive%20Bayes.jpeg) | [![PCA](./images/PCA.jpeg)](./images/PCA.jpeg) |
+
+| Simple Linear Regression | Multiple Linear Regression | Word Cloud |
+|---|---|---|
+| [![Simple Linear Regression](./images/Simple%20Linear%20Regression.jpeg)](./images/Simple%20Linear%20Regression.jpeg) | [![Multiple Linear Regression](./images/Multiple%20Linear%20Regression.jpeg)](./images/Multiple%20Linear%20Regression.jpeg) | [![Word Cloud](./images/Word%20Cloud.jpeg)](./images/Word%20Cloud.jpeg) |
 
 <details>
   <summary><strong>Browse more visualizations</strong></summary>
