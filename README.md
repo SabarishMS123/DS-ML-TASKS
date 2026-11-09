@@ -1,4 +1,3 @@
-```
 # 🤖 Machine Learning & Data Science Portfolio (DS-ML-TASKS)
 
 ### Python • Scikit-Learn • Pandas • Matplotlib • Tkinter
@@ -270,4 +269,4 @@ This project and its source code are the intellectual property of the author. Un
 ---
 
 ⭐ If you found these projects helpful, consider giving this repository a star!
-```
+
